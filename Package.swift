@@ -18,7 +18,7 @@ let package = Package(
         .target(
             name: "iCarousel",
             path: "iCarousel",
-            exclude: ["Info.plist"]
+            exclude: ["Info.plist"],
             sources: ["iCarousel.m"]
         )
     ]
