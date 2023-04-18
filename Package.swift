@@ -19,6 +19,7 @@ let package = Package(
             name: "iCarousel",
             path: "iCarousel",
             exclude: ["Info.plist"]
+            sources: ["iCarousel.m"]
         )
     ]
 )
