@@ -20,9 +20,9 @@ let package = Package(
             path: "iCarousel",
             exclude: ["Info.plist"],
             sources: ["iCarousel.m"],
-            publicHeadersPath: ".",
+            publicHeadersPath: "iCarousel",
             cSettings: [
-                .headerSearchPath(".")
+                .headerSearchPath("iCarousel")
             ]
         )
     ]
